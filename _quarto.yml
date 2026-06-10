@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/**
+
+brand: _brand.yml
+bibliography: bibliography.bib
+
+website:
+  title: "Ranto Rakotondrajoa"
+  description: "Mathematical notes, writing, and projects"
+  navbar:
+    pinned: true
+    left:
+      - text: "Math Notes"
+        href: math-notes/index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+    right:
+      - text: "About / CV"
+        href: about.qmd
+  page-footer:
+    left: "© 2026 Ranto Rakotondrajoa"
+    right: "Built with [Quarto](https://quarto.org/)"
+  search: false
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    html-math-method: mathjax
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    smooth-scroll: true
+    link-external-newwindow: true
+
+crossref:
+  chapters: false
+
+execute:
+  freeze: auto

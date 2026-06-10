@@ -1,0 +1,251 @@
+/*-- scss:defaults --*/
+
+$body-bg: #f8f6f1;
+$body-color: #211f1b;
+$link-color: #445f73;
+$link-hover-color: #2f4657;
+$navbar-bg: #f8f6f1;
+$navbar-fg: #211f1b;
+$border-color: #d9d4ca;
+$font-family-base: "Academic Palatino", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+$headings-font-family: "Academic Palatino", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+$headings-font-weight: 700;
+$line-height-base: 1.72;
+$grid-body-width: 760px;
+$grid-sidebar-width: 210px;
+$grid-margin-width: 230px;
+
+/*-- scss:rules --*/
+
+@font-face {
+  font-family: "Academic Palatino";
+  src: url("assets/fonts/Palatino Linotype/palatinolinotype_roman.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Academic Palatino";
+  src: url("assets/fonts/Palatino Linotype/palatinolinotype_italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Academic Palatino";
+  src: url("assets/fonts/Palatino Linotype/palatinolinotype_bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Academic Palatino";
+  src: url("assets/fonts/Palatino Linotype/palatinolinotype_bolditalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+body {
+  background: $body-bg;
+  color: $body-color;
+  font-family: $font-family-base;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+.navbar {
+  border-bottom: 1px solid $border-color;
+  box-shadow: none;
+  font-size: 1rem;
+}
+
+.navbar-title {
+  font-weight: 700;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  letter-spacing: -0.015em;
+}
+
+h1.title {
+  margin-bottom: 0.4rem;
+}
+
+.quarto-title-meta,
+.description,
+.listing-description,
+.page-navigation {
+  color: #68635b;
+}
+
+.quarto-listing-default .listing-item {
+  border-bottom: 1px solid $border-color;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+}
+
+.quarto-listing-default .listing-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.quarto-listing-default .listing-title a {
+  text-decoration: none;
+}
+
+.quarto-listing-category {
+  border-color: $border-color !important;
+  color: #68635b !important;
+}
+
+blockquote {
+  border-left-color: #9aa7af;
+  color: #4c4943;
+}
+
+/* -------------------------------------------------
+   Theorem environments
+   ------------------------------------------------- */
+
+/* Formal mathematical statements */
+.theorem,
+.lemma,
+.proposition,
+.corollary,
+.conjecture,
+.definition {
+  margin: 1.6rem 0;
+  padding: 0.95rem 1.1rem;
+
+  background-color: #f3f0e9;
+  border: 1px solid $border-color;
+  border-left: 0.25rem solid $link-color;
+  border-radius: 0.12rem;
+
+  box-shadow: 0 0.08rem 0.18rem rgba(33, 31, 27, 0.035);
+}
+
+/* Quarto generally uses .theorem-title for all theorem-like blocks. */
+.theorem-title {
+  color: darken($link-color, 8%);
+  font-family: $headings-font-family;
+  font-weight: 700;
+}
+
+/* Definitions: same structure, slightly warmer and more neutral. */
+.definition {
+  background-color: #f5f2eb;
+  border-left-color: #756a55;
+}
+
+.definition .theorem-title {
+  color: #665b48;
+}
+
+/* Remarks and examples: deliberately lighter. */
+.remark,
+.example {
+  margin: 1.4rem 0;
+  padding: 0.85rem 1rem;
+
+  background-color: rgba(217, 212, 202, 0.18);
+  border: 1px solid rgba(217, 212, 202, 0.9);
+  border-left: 0.2rem solid #9a9387;
+  border-radius: 0.12rem;
+}
+
+.remark .theorem-title,
+.example .theorem-title {
+  color: #625d55;
+  font-weight: 700;
+}
+
+/* Proofs: close to the traditional amsthm style. */
+.proof {
+  position: relative;
+  margin: 1.35rem 0;
+  padding: 0.15rem 0 0.15rem 1rem;
+
+  background: transparent;
+  border-left: 1px solid $border-color;
+}
+
+.proof-title,
+.proof .theorem-title {
+  color: $body-color;
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* Traditional end-of-proof square.
+   Remove this rule if Quarto already inserts one in your output. */
+.proof::after {
+  content: "\25A1";
+  display: block;
+  margin-top: 0.25rem;
+  text-align: right;
+  font-size: 0.95rem;
+}
+
+/* Avoid excess whitespace inside boxes. */
+.theorem > :first-child,
+.lemma > :first-child,
+.proposition > :first-child,
+.corollary > :first-child,
+.conjecture > :first-child,
+.definition > :first-child,
+.remark > :first-child,
+.example > :first-child,
+.proof > :first-child {
+  margin-top: 0;
+}
+
+.theorem > :last-child,
+.lemma > :last-child,
+.proposition > :last-child,
+.corollary > :last-child,
+.conjecture > :last-child,
+.definition > :last-child,
+.remark > :last-child,
+.example > :last-child,
+.proof > :last-child {
+  margin-bottom: 0;
+}
+
+.theorem-title,
+.lemma-title,
+.proposition-title,
+.definition-title,
+.remark-title,
+.example-title {
+  font-weight: 700;
+}
+
+.page-footer {
+  border-top: 1px solid $border-color;
+  color: #68635b;
+  font-size: 0.9rem;
+}
+
+code {
+  color: #3e5362;
+}
+
+@media (max-width: 767.98px) {
+  body {
+    font-size: 1.02rem;
+  }
+}

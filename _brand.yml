@@ -1,0 +1,42 @@
+meta:
+  name: "Academic Notes"
+
+color:
+  palette:
+    paper: "#f8f6f1"
+    ink: "#211f1b"
+    muted-ink: "#68635b"
+    accent: "#445f73"
+    rule: "#d9d4ca"
+  background: ink
+  foreground: ink
+  primary: accent
+
+typography:
+  fonts:
+    - family: "Academic Palatino"
+      source: file
+      files:
+        - path: "assets/fonts/Palatino Linotype/palatinolinotype_roman.ttf"
+          weight: 400
+          style: normal
+        - path: "assets/fonts/Palatino Linotype/palatinolinotype_italic.ttf"
+          weight: 400
+          style: italic
+        - path: "assets/fonts/Palatino Linotype/palatinolinotype_bold.ttf"
+          weight: 700
+          style: normal
+        - path: "assets/fonts/Palatino Linotype/palatinolinotype_bolditalic.ttf"
+          weight: 700
+          style: italic
+  base:
+    family: "Academic Palatino"
+    size: 1.08rem
+    line-height: 1.72
+  headings:
+    family: "Academic Palatino"
+    weight: 700
+    line-height: 1.2
+  link:
+    color: accent
+    decoration: underline
