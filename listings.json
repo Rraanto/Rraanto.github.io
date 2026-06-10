@@ -1,0 +1,27 @@
+[
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/posts/math-journey.html"
+    ]
+  },
+  {
+    "listing": "/math-notes/index.html",
+    "items": [
+      "/math-notes/analysis/a-short-note-on-convexity.html",
+      "/math-notes/geometry/compactness-and-covers.html"
+    ]
+  },
+  {
+    "listing": "/projects/mathematical-papers/index.html",
+    "items": [
+      "/projects/mathematical-papers/an-expository-paper.html"
+    ]
+  },
+  {
+    "listing": "/projects/applied-math/index.html",
+    "items": [
+      "/projects/applied-math/a-diffusion-model.html"
+    ]
+  }
+]

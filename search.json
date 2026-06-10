@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ranto Rakotondrajoa",
+    "section": "",
+    "text": "Welcome to my website. I am a passionate mathematics student (and passionate person in general) and I uploaded here some of my mathematical interests alongside some general notes. I do not claim to write novel or peer-reviewed contents."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Ranto Rakotondrajoa",
+    "section": "",
+    "text": "Welcome to my website. I am a passionate mathematics student (and passionate person in general) and I uploaded here some of my mathematical interests alongside some general notes. I do not claim to write novel or peer-reviewed contents."
+  },
+  {
+    "objectID": "index.html#content",
+    "href": "index.html#content",
+    "title": "Ranto Rakotondrajoa",
+    "section": "Content",
+    "text": "Content\nMath Notes\nExpository notes, reading notes, and course-style documents.\nBlog\nGeneral writing, ordered chronologically.\nProjects\nMathematical papers and applied mathematics work."
+  },
+  {
+    "objectID": "index.html#get-to-know-me",
+    "href": "index.html#get-to-know-me",
+    "title": "Ranto Rakotondrajoa",
+    "section": "Get to know me",
+    "text": "Get to know me\nIf you are mathematically inclined, ideally we could share a coffee and discuss our favorite niche topics, that is unfortunately quite unlikely. Therefore, I put forth short paragraphs on my mathematical journey, with hopes that it provides you with some idea on the type of maths that filled my dreams and fantasies over the years."
+  },
+  {
+    "objectID": "projects/applied-math/a-diffusion-model.html",
+    "href": "projects/applied-math/a-diffusion-model.html",
+    "title": "A Simple Diffusion Model",
+    "section": "",
+    "text": "Consider the heat equation\n\\[\n\\partial_t u = D\\,\\partial_{xx}u\n\\]\non a bounded interval with prescribed initial and boundary data. This placeholder project is ready to hold a modelling discussion, numerical method, figures, and results."
+  },
+  {
+    "objectID": "projects/applied-math/a-diffusion-model.html#project-summary",
+    "href": "projects/applied-math/a-diffusion-model.html#project-summary",
+    "title": "A Simple Diffusion Model",
+    "section": "",
+    "text": "Consider the heat equation\n\\[\n\\partial_t u = D\\,\\partial_{xx}u\n\\]\non a bounded interval with prescribed initial and boundary data. This placeholder project is ready to hold a modelling discussion, numerical method, figures, and results."
+  },
+  {
+    "objectID": "projects/applied-math/a-diffusion-model.html#resources",
+    "href": "projects/applied-math/a-diffusion-model.html#resources",
+    "title": "A Simple Diffusion Model",
+    "section": "Resources",
+    "text": "Resources\nThe YAML front matter includes commented examples for an optional figure, PDF report, and GitHub repository. Uncomment them after adding the corresponding resources."
+  },
+  {
+    "objectID": "projects/mathematical-papers/an-expository-paper.html",
+    "href": "projects/mathematical-papers/an-expository-paper.html",
+    "title": "An Expository Paper on Fixed-Point Principles",
+    "section": "",
+    "text": "This placeholder paper compares several fixed-point principles and emphasizes the hypotheses that distinguish their applications."
+  },
+  {
+    "objectID": "projects/mathematical-papers/an-expository-paper.html#abstract",
+    "href": "projects/mathematical-papers/an-expository-paper.html#abstract",
+    "title": "An Expository Paper on Fixed-Point Principles",
+    "section": "",
+    "text": "This placeholder paper compares several fixed-point principles and emphasizes the hypotheses that distinguish their applications."
+  },
+  {
+    "objectID": "projects/mathematical-papers/an-expository-paper.html#links",
+    "href": "projects/mathematical-papers/an-expository-paper.html#links",
+    "title": "An Expository Paper on Fixed-Point Principles",
+    "section": "Links",
+    "text": "Links\nOptional project files can be exposed by uncommenting and updating the pdf, repository, or image fields in the YAML front matter. Add visible links here when those resources exist."
+  },
+  {
+    "objectID": "projects/mathematical-papers/an-expository-paper.html#introduction",
+    "href": "projects/mathematical-papers/an-expository-paper.html#introduction",
+    "title": "An Expository Paper on Fixed-Point Principles",
+    "section": "Introduction",
+    "text": "Introduction\nLonger papers can use the same theorem, equation, citation, and cross-reference features demonstrated in the math notes."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "My mathematical journey\n\n\n\nlearning\n\nmathematics\n\n\n\nA short story on my personal journey through mathematics\n\n\n\n\n\nMay 10, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "math-notes/index.html",
+    "href": "math-notes/index.html",
+    "title": "Math Notes",
+    "section": "",
+    "text": "Notes are grouped by topic in subfolders. Add a .qmd file with front matter to the appropriate topic folder and it will appear here automatically.\n\n\n\n\n\n\n\n\n\nA Short Note on Convexity\n\n\n\nanalysis\n\nconvexity\n\n\n\nA compact example of equations, a theorem, a proof, and internal cross-references.\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\nCompactness and Open Covers\n\n\n\ntopology\n\nreading notes\n\n\n\nA reading note demonstrating citations and cross-references.\n\n\n\n\n\nMay 20, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "math-notes/analysis/a-short-note-on-convexity.html",
+    "href": "math-notes/analysis/a-short-note-on-convexity.html",
+    "title": "A Short Note on Convexity",
+    "section": "",
+    "text": "Let \\(f\\colon I\\to\\mathbb{R}\\) be convex on an interval \\(I\\). For \\(x,y\\in I\\) and \\(t\\in[0,1]\\),\n\\[\nf\\bigl(tx+(1-t)y\\bigr)\n\\leq\nt f(x)+(1-t)f(y).\n\\tag{1}\\]\nEquation Equation 1 says that the graph of (f) lies below each of its chords.\n\nTheorem 1 (Midpoint criterion) Suppose \\(f\\colon I\\to\\mathbb{R}\\) is continuous and satisfies\n\\[\nf\\left(\\frac{x+y}{2}\\right)\n\\leq\n\\frac{f(x)+f(y)}{2}\n\\]\nfor every \\(x,y\\in I\\). Then \\(f\\) is convex.\n\n\nProof. For dyadic \\(t=k/2^n\\), repeated application of the midpoint inequality gives Equation 1. Every \\(t\\in[0,1]\\) is the limit of dyadic numbers, so continuity of \\(f\\) extends the inequality to all \\(t\\). This proves the claim.\n\nThe argument in Theorem 1 is a standard example of proving a statement first on a dense subset and then passing to a limit."
+  },
+  {
+    "objectID": "math-notes/analysis/a-short-note-on-convexity.html#the-basic-inequality",
+    "href": "math-notes/analysis/a-short-note-on-convexity.html#the-basic-inequality",
+    "title": "A Short Note on Convexity",
+    "section": "",
+    "text": "Let \\(f\\colon I\\to\\mathbb{R}\\) be convex on an interval \\(I\\). For \\(x,y\\in I\\) and \\(t\\in[0,1]\\),\n\\[\nf\\bigl(tx+(1-t)y\\bigr)\n\\leq\nt f(x)+(1-t)f(y).\n\\tag{1}\\]\nEquation Equation 1 says that the graph of (f) lies below each of its chords.\n\nTheorem 1 (Midpoint criterion) Suppose \\(f\\colon I\\to\\mathbb{R}\\) is continuous and satisfies\n\\[\nf\\left(\\frac{x+y}{2}\\right)\n\\leq\n\\frac{f(x)+f(y)}{2}\n\\]\nfor every \\(x,y\\in I\\). Then \\(f\\) is convex.\n\n\nProof. For dyadic \\(t=k/2^n\\), repeated application of the midpoint inequality gives Equation 1. Every \\(t\\in[0,1]\\) is the limit of dyadic numbers, so continuity of \\(f\\) extends the inequality to all \\(t\\). This proves the claim.\n\nThe argument in Theorem 1 is a standard example of proving a statement first on a dense subset and then passing to a limit."
+  },
+  {
+    "objectID": "math-notes/geometry/compactness-and-covers.html",
+    "href": "math-notes/geometry/compactness-and-covers.html",
+    "title": "Compactness and Open Covers",
+    "section": "",
+    "text": "Definition 1 (Compact space) A topological space \\(X\\) is compact if every open cover of \\(X\\) has a finite subcover.\n\nThe definition in Definition 1 is purely topological. In Euclidean space it is equivalent to a more geometric condition.\n\nTheorem 1 (Heine–Borel) A subset \\(K\\subset\\mathbb{R}^n\\) is compact if and only if it is closed and bounded.\n\n\nProof. Let \\(K \\subset \\mathbb R^n\\) be a compact set. Each point \\(x \\in K\\) is included in some open ball \\(B(x, r_x)\\), thus: \\[\nK \\subset \\bigcup\\limits_{x \\in K}B(x, r_x)\n\\] By compactness, there are finite points \\(x_1, \\dots, x_M\\) of \\(K\\) such that \\(B(x_1, r_{x_1}) \\cup \\dots \\cup B(x_M, r_{x_M})\\) cover \\(K\\). We can show that this finite union of bounded sets is bounded.\nSuppose \\(\\bar{K} \\neq K\\), and let \\(x \\in \\bar{K} \\setminus K\\). By definition of the closure, there is some sequence \\((x_i)_{i \\in \\mathbb N}\\) fully included in \\(K\\) converging towards \\(x\\).\n\nThe distinction between compactness and sequential compactness requires care outside metric spaces. A standard treatment of compactness in metric settings can be found in Rudin (1976)."
+  },
+  {
+    "objectID": "math-notes/geometry/compactness-and-covers.html#definition",
+    "href": "math-notes/geometry/compactness-and-covers.html#definition",
+    "title": "Compactness and Open Covers",
+    "section": "",
+    "text": "Definition 1 (Compact space) A topological space \\(X\\) is compact if every open cover of \\(X\\) has a finite subcover.\n\nThe definition in Definition 1 is purely topological. In Euclidean space it is equivalent to a more geometric condition.\n\nTheorem 1 (Heine–Borel) A subset \\(K\\subset\\mathbb{R}^n\\) is compact if and only if it is closed and bounded.\n\n\nProof. Let \\(K \\subset \\mathbb R^n\\) be a compact set. Each point \\(x \\in K\\) is included in some open ball \\(B(x, r_x)\\), thus: \\[\nK \\subset \\bigcup\\limits_{x \\in K}B(x, r_x)\n\\] By compactness, there are finite points \\(x_1, \\dots, x_M\\) of \\(K\\) such that \\(B(x_1, r_{x_1}) \\cup \\dots \\cup B(x_M, r_{x_M})\\) cover \\(K\\). We can show that this finite union of bounded sets is bounded.\nSuppose \\(\\bar{K} \\neq K\\), and let \\(x \\in \\bar{K} \\setminus K\\). By definition of the closure, there is some sequence \\((x_i)_{i \\in \\mathbb N}\\) fully included in \\(K\\) converging towards \\(x\\).\n\nThe distinction between compactness and sequential compactness requires care outside metric spaces. A standard treatment of compactness in metric settings can be found in Rudin (1976)."
+  },
+  {
+    "objectID": "math-notes/geometry/compactness-and-covers.html#compactness-is-a-topological-property",
+    "href": "math-notes/geometry/compactness-and-covers.html#compactness-is-a-topological-property",
+    "title": "Compactness and Open Covers",
+    "section": "Compactness is a topological property",
+    "text": "Compactness is a topological property\n\nTheorem 2 Let \\(f: X \\rightarrow Y\\) be a continuous function, and \\(K \\subset X\\) a compact set. Then \\(f(K) \\subseteq Y\\) is compact.\n\n\nProof. Indeed, let \\(\\bigcup\\limits_{\\lambda \\in \\Lambda} U_\\lambda\\) be an arbitrary open cover of \\(f(K)\\). \\(f^{-1}\\left(\\bigcup\\limits_{\\lambda \\in \\Lambda} U_\\lambda)\\right) = \\bigcup\\limits_{\\lambda \\in \\Lambda}f^{-1}(U_\\lambda)\\) contains \\(K\\). Thus, by compactness, there is some \\(\\lambda_1, \\dots, \\lambda_M\\) such that \\(K \\in f^{-1}(U_{\\lambda_1}) \\cup \\dots \\cup f^{-1}(U_{\\lambda_M})\\), therefore: \\[\nf(K) \\subseteq U_{\\lambda_1} \\cup \\dots \\cup U_{\\lambda_M}\n\\]"
+  },
+  {
+    "objectID": "math-notes/geometry/compactness-and-covers.html#useful-consequences",
+    "href": "math-notes/geometry/compactness-and-covers.html#useful-consequences",
+    "title": "Compactness and Open Covers",
+    "section": "Useful consequences",
+    "text": "Useful consequences\n\nA continuous real-valued function on a closed bounded interval attains both its maximum and minimum. This is a simple consequence of Theorem 2.\nif \\(X \\xrightarrow{f} Y\\) is an injective continuous function, where \\(X\\) is precompact and \\(Y\\) is compact, then \\(f\\) is a homeomorphism onto its image (an immersion)."
+  },
+  {
+    "objectID": "math-notes/geometry/compactness-and-covers.html#references",
+    "href": "math-notes/geometry/compactness-and-covers.html#references",
+    "title": "Compactness and Open Covers",
+    "section": "References",
+    "text": "References\n\n\nRudin, Walter. 1976. Principles of Mathematical Analysis. 3rd ed. McGraw-Hill."
+  },
+  {
+    "objectID": "blog/posts/math-journey.html",
+    "href": "blog/posts/math-journey.html",
+    "title": "My mathematical journey",
+    "section": "",
+    "text": "Mathematics is a succession of a few enlightenments and very long phases of confusion. I truly wish the evolution of my mathematics had known somewhat of a more linear tendency, but it was rather highly irregular. When I look back however, some feelings from doing what we can reasonably call elementary maths are no different from what I still feel today despite my current topics of interests being slightly more advanced. I recall in this short story some moments of enlightenments that I claim to have provided me similar huge amounts of satisfactions.\nage 8: Construction of \\((\\mathbb{Z}, +)\\) : Breaking a universal rule of primary school maths\nage 14: Neglecting physics lessons and finding out trigonometry is useful\nage 16: Beating calculus\nage 18: Set theory: embracing numberless maths\nage 20: Metric space topology and the joy of living in \\(\\mathbb R^2\\)\nage 21: Gluing, pasting, cutting, counting holes: maths or playdough ?\nCategory theory: abstracting the abstractions"
+  },
+  {
+    "objectID": "projects/mathematical-papers/index.html",
+    "href": "projects/mathematical-papers/index.html",
+    "title": "Mathematical Papers",
+    "section": "",
+    "text": "An Expository Paper on Fixed-Point Principles\n\n\n\nanalysis\n\nfixed points\n\nexpository\n\n\n\nA placeholder abstract for a longer mathematical document.\n\n\n\n\n\nApr 15, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/applied-math/index.html",
+    "href": "projects/applied-math/index.html",
+    "title": "Applied Mathematics Projects",
+    "section": "",
+    "text": "A Simple Diffusion Model\n\n\n\npartial differential equations\n\nmodelling\n\ncomputation\n\n\n\nA placeholder project studying diffusion on a bounded one-dimensional domain.\n\n\n\n\n\nMar 30, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Preprint-like documents, expository papers, and substantial mathematical projects."
+  },
+  {
+    "objectID": "projects/index.html#mathematical-papers",
+    "href": "projects/index.html#mathematical-papers",
+    "title": "Projects",
+    "section": "",
+    "text": "Preprint-like documents, expository papers, and substantial mathematical projects."
+  },
+  {
+    "objectID": "projects/index.html#applied-mathematics-projects",
+    "href": "projects/index.html#applied-mathematics-projects",
+    "title": "Projects",
+    "section": "Applied mathematics projects",
+    "text": "Applied mathematics projects\nComputational, modelling, and data-informed work, with space for reports, figures, and source repositories."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About / CV",
+    "section": "",
+    "text": "Research Interests\nMy current research interests are Uncertainty Quantification and Sensitivity Analysis:\n\nSensitivity Analysis: Models with functional outputs (applications to time-dependent models or vector field models)\nTopological Data Analysis: category-theoretic formulations of topological complex computations\n\n\n\n\nAcademic and professional experience\n\nR&D Intern, ALTEN, Rennes, (March-September 2026)\nResearch topic: Uncertainty Management in Complex Systems. My main work consists of applying uncerainty management methods to industrial problems at the Innovation Direction of ALTEN, Rennes.\n\n\n\n\nEducation\n\nMsc Mathematics and Applications\n\nM2 Applied Analysis and Mathematical Modeling, Université Savoie Mont Blanc (2025–2026). R&D Research Internship: Uncertainty Management in Complex Systems\nM1 Mathematics, Sorbonne University (2024–2025)\n\n\n\nBsc Mathematics\n\nL3 Mathematics, Université Grenoble Alpes (2023-2024)\n\n\n\n\n\nContact\nEmail: ranto.rakotondrajoa@gmail.com\npdf version of the CV here"
+  }
+]
