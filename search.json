@@ -28,25 +28,11 @@
     "text": "Get to know me\nIf you are mathematically inclined, ideally we could share a coffee and discuss our favorite niche topics, that is unfortunately quite unlikely. Therefore, I put forth short paragraphs on my mathematical journey, with hopes that it provides you with some idea on the type of maths that filled my dreams and fantasies over the years."
   },
   {
-    "objectID": "projects/applied-math/a-diffusion-model.html",
-    "href": "projects/applied-math/a-diffusion-model.html",
-    "title": "A Simple Diffusion Model",
+    "objectID": "projects/applied-math/index.html",
+    "href": "projects/applied-math/index.html",
+    "title": "Applied Mathematics Projects",
     "section": "",
-    "text": "Consider the heat equation\n\\[\n\\partial_t u = D\\,\\partial_{xx}u\n\\]\non a bounded interval with prescribed initial and boundary data. This placeholder project is ready to hold a modelling discussion, numerical method, figures, and results."
-  },
-  {
-    "objectID": "projects/applied-math/a-diffusion-model.html#project-summary",
-    "href": "projects/applied-math/a-diffusion-model.html#project-summary",
-    "title": "A Simple Diffusion Model",
-    "section": "",
-    "text": "Consider the heat equation\n\\[\n\\partial_t u = D\\,\\partial_{xx}u\n\\]\non a bounded interval with prescribed initial and boundary data. This placeholder project is ready to hold a modelling discussion, numerical method, figures, and results."
-  },
-  {
-    "objectID": "projects/applied-math/a-diffusion-model.html#resources",
-    "href": "projects/applied-math/a-diffusion-model.html#resources",
-    "title": "A Simple Diffusion Model",
-    "section": "Resources",
-    "text": "Resources\nThe YAML front matter includes commented examples for an optional figure, PDF report, and GitHub repository. Uncomment them after adding the corresponding resources."
+    "text": "A Simple Diffusion Model\n\n\n\npartial differential equations\n\nmodelling\n\ncomputation\n\n\n\nA placeholder project studying diffusion on a bounded one-dimensional domain.\n\n\n\n\n\nMar 30, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/mathematical-papers/an-expository-paper.html",
@@ -95,14 +81,14 @@
     "href": "math-notes/analysis/a-short-note-on-convexity.html",
     "title": "A Short Note on Convexity",
     "section": "",
-    "text": "Let \\(f\\colon I\\to\\mathbb{R}\\) be convex on an interval \\(I\\). For \\(x,y\\in I\\) and \\(t\\in[0,1]\\),\n\\[\nf\\bigl(tx+(1-t)y\\bigr)\n\\leq\nt f(x)+(1-t)f(y).\n\\tag{1}\\]\nEquation Equation 1 says that the graph of (f) lies below each of its chords.\n\nTheorem 1 (Midpoint criterion) Suppose \\(f\\colon I\\to\\mathbb{R}\\) is continuous and satisfies\n\\[\nf\\left(\\frac{x+y}{2}\\right)\n\\leq\n\\frac{f(x)+f(y)}{2}\n\\]\nfor every \\(x,y\\in I\\). Then \\(f\\) is convex.\n\n\nProof. For dyadic \\(t=k/2^n\\), repeated application of the midpoint inequality gives Equation 1. Every \\(t\\in[0,1]\\) is the limit of dyadic numbers, so continuity of \\(f\\) extends the inequality to all \\(t\\). This proves the claim.\n\nThe argument in Theorem 1 is a standard example of proving a statement first on a dense subset and then passing to a limit."
+    "text": "Let \\(f\\colon I\\to\\mathbb{R}\\) be convex on an interval \\(I\\). For \\(x,y\\in I\\) and \\(t\\in[0,1]\\),\n\\[\nf\\bigl(tx+(1-t)y\\bigr)\n\\leq\nt f(x)+(1-t)f(y).\n\\tag{1}\\]\nEquation Equation 1 says that the graph of (f) lies below each of its chords.\n\nTheorem 1 (Midpoint criterion) Suppose \\(f\\colon I\\to\\mathbb{R}\\) is continuous and satisfies\n\\[\nf\\left(\\frac{x+y}{2}\\right)\n\\leq\n\\frac{f(x)+f(y)}{2}\n\\]\nfor every \\(x,y\\in I\\). Then \\(f\\) is convex.\n\n\nProof. For dyadic \\(t=k/2^n\\), repeated application of the midpoint inequality gives Equation 1. Every \\(t\\in[0,1]\\) is the limit of dyadic numbers, so continuity of \\(f\\) extends the inequality to all \\(t\\). This proves the claim.\n\nThe argument in Theorem 1 is a standard example of proving a statement first on a dense subset and then passing to a limit.\nConvexity essentially means that on any two points \\(A = (a, b)\\) and \\(B = (c, d)\\) on the graph \\(\\Gamma_f\\) of \\(f\\), the straight line \\(AB\\) is always at least shorter than the portion of \\(\\Gamma_f\\) that is between \\(A\\) and \\(B\\):"
   },
   {
     "objectID": "math-notes/analysis/a-short-note-on-convexity.html#the-basic-inequality",
     "href": "math-notes/analysis/a-short-note-on-convexity.html#the-basic-inequality",
     "title": "A Short Note on Convexity",
     "section": "",
-    "text": "Let \\(f\\colon I\\to\\mathbb{R}\\) be convex on an interval \\(I\\). For \\(x,y\\in I\\) and \\(t\\in[0,1]\\),\n\\[\nf\\bigl(tx+(1-t)y\\bigr)\n\\leq\nt f(x)+(1-t)f(y).\n\\tag{1}\\]\nEquation Equation 1 says that the graph of (f) lies below each of its chords.\n\nTheorem 1 (Midpoint criterion) Suppose \\(f\\colon I\\to\\mathbb{R}\\) is continuous and satisfies\n\\[\nf\\left(\\frac{x+y}{2}\\right)\n\\leq\n\\frac{f(x)+f(y)}{2}\n\\]\nfor every \\(x,y\\in I\\). Then \\(f\\) is convex.\n\n\nProof. For dyadic \\(t=k/2^n\\), repeated application of the midpoint inequality gives Equation 1. Every \\(t\\in[0,1]\\) is the limit of dyadic numbers, so continuity of \\(f\\) extends the inequality to all \\(t\\). This proves the claim.\n\nThe argument in Theorem 1 is a standard example of proving a statement first on a dense subset and then passing to a limit."
+    "text": "Let \\(f\\colon I\\to\\mathbb{R}\\) be convex on an interval \\(I\\). For \\(x,y\\in I\\) and \\(t\\in[0,1]\\),\n\\[\nf\\bigl(tx+(1-t)y\\bigr)\n\\leq\nt f(x)+(1-t)f(y).\n\\tag{1}\\]\nEquation Equation 1 says that the graph of (f) lies below each of its chords.\n\nTheorem 1 (Midpoint criterion) Suppose \\(f\\colon I\\to\\mathbb{R}\\) is continuous and satisfies\n\\[\nf\\left(\\frac{x+y}{2}\\right)\n\\leq\n\\frac{f(x)+f(y)}{2}\n\\]\nfor every \\(x,y\\in I\\). Then \\(f\\) is convex.\n\n\nProof. For dyadic \\(t=k/2^n\\), repeated application of the midpoint inequality gives Equation 1. Every \\(t\\in[0,1]\\) is the limit of dyadic numbers, so continuity of \\(f\\) extends the inequality to all \\(t\\). This proves the claim.\n\nThe argument in Theorem 1 is a standard example of proving a statement first on a dense subset and then passing to a limit.\nConvexity essentially means that on any two points \\(A = (a, b)\\) and \\(B = (c, d)\\) on the graph \\(\\Gamma_f\\) of \\(f\\), the straight line \\(AB\\) is always at least shorter than the portion of \\(\\Gamma_f\\) that is between \\(A\\) and \\(B\\):"
   },
   {
     "objectID": "math-notes/geometry/compactness-and-covers.html",
@@ -154,32 +140,25 @@
     "text": "An Expository Paper on Fixed-Point Principles\n\n\n\nanalysis\n\nfixed points\n\nexpository\n\n\n\nA placeholder abstract for a longer mathematical document.\n\n\n\n\n\nApr 15, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/applied-math/index.html",
-    "href": "projects/applied-math/index.html",
-    "title": "Applied Mathematics Projects",
+    "objectID": "projects/applied-math/a-diffusion-model.html",
+    "href": "projects/applied-math/a-diffusion-model.html",
+    "title": "A Simple Diffusion Model",
     "section": "",
-    "text": "A Simple Diffusion Model\n\n\n\npartial differential equations\n\nmodelling\n\ncomputation\n\n\n\nA placeholder project studying diffusion on a bounded one-dimensional domain.\n\n\n\n\n\nMar 30, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Consider the heat equation\n\\[\n\\partial_t u = D\\,\\partial_{xx}u\n\\]\non a bounded interval with prescribed initial and boundary data. This placeholder project is ready to hold a modelling discussion, numerical method, figures, and results."
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "projects/applied-math/a-diffusion-model.html#project-summary",
+    "href": "projects/applied-math/a-diffusion-model.html#project-summary",
+    "title": "A Simple Diffusion Model",
     "section": "",
-    "text": "Preprint-like documents, expository papers, and substantial mathematical projects."
+    "text": "Consider the heat equation\n\\[\n\\partial_t u = D\\,\\partial_{xx}u\n\\]\non a bounded interval with prescribed initial and boundary data. This placeholder project is ready to hold a modelling discussion, numerical method, figures, and results."
   },
   {
-    "objectID": "projects/index.html#mathematical-papers",
-    "href": "projects/index.html#mathematical-papers",
-    "title": "Projects",
-    "section": "",
-    "text": "Preprint-like documents, expository papers, and substantial mathematical projects."
-  },
-  {
-    "objectID": "projects/index.html#applied-mathematics-projects",
-    "href": "projects/index.html#applied-mathematics-projects",
-    "title": "Projects",
-    "section": "Applied mathematics projects",
-    "text": "Applied mathematics projects\nComputational, modelling, and data-informed work, with space for reports, figures, and source repositories."
+    "objectID": "projects/applied-math/a-diffusion-model.html#resources",
+    "href": "projects/applied-math/a-diffusion-model.html#resources",
+    "title": "A Simple Diffusion Model",
+    "section": "Resources",
+    "text": "Resources\nThe YAML front matter includes commented examples for an optional figure, PDF report, and GitHub repository. Uncomment them after adding the corresponding resources."
   },
   {
     "objectID": "about.html",

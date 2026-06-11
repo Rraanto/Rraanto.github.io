@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-04fcf6bcea39d4362d95d45c67e10a8e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-04fcf6bcea39d4362d95d45c67e10a8e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-04fcf6bcea39d4362d95d45c67e10a8e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-d586f62e2c1b16514fabe0474fb8bd81.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-d586f62e2c1b16514fabe0474fb8bd81.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-d586f62e2c1b16514fabe0474fb8bd81.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -213,6 +213,16 @@ f\left(\frac{x+y}{2}\right)
 <p><span class="proof-title"><em>Proof</em>. </span>For dyadic <span class="math inline">\(t=k/2^n\)</span>, repeated application of the midpoint inequality gives <a href="#eq-convexity" class="quarto-xref">Equation&nbsp;1</a>. Every <span class="math inline">\(t\in[0,1]\)</span> is the limit of dyadic numbers, so continuity of <span class="math inline">\(f\)</span> extends the inequality to all <span class="math inline">\(t\)</span>. This proves the claim.</p>
 </div>
 <p>The argument in <a href="#thm-midpoint-convexity" class="quarto-xref">Theorem&nbsp;1</a> is a standard example of proving a statement first on a dense subset and then passing to a limit.</p>
+<p>Convexity essentially means that on any two points <span class="math inline">\(A = (a, b)\)</span> and <span class="math inline">\(B = (c, d)\)</span> on the graph <span class="math inline">\(\Gamma_f\)</span> of <span class="math inline">\(f\)</span>, the straight line <span class="math inline">\(AB\)</span> is always at least shorter than the portion of <span class="math inline">\(\Gamma_f\)</span> that is between <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>:</p>
+<div id="953e6c8b" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="a-short-note-on-convexity_files/figure-html/cell-2-output-1.png" width="571" height="411" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
 <!-- Complex commutative diagrams can later be written in tikz-cd, compiled to SVG, and inserted as images. No diagram compilation workflow is configured yet. -->
 
 
@@ -292,7 +302,7 @@ f\left(\frac{x+y}{2}\right)
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Rraanto\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
